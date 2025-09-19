@@ -1,5 +1,5 @@
-from addressbook import AddressBook, Record, Birthday
 import pickle
+from addressbook import AddressBook, Record
 
 
 def input_error(func):
