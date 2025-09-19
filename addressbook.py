@@ -74,7 +74,7 @@ class Record:
             return f"Contact name: {self.name.value}, phones: {'; '.join(p.value for p in self.phones)}"
         else:
             return f"Contact name: {self.name.value}, phones: {'; '.join(p.value for p in self.phones)} {self.birthday}"
-   
+
 
 class AddressBook(UserDict):
 
